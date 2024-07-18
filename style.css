@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #16161a;
+  color: #fffffe;
+  line-height: 1.6;
+}
+
+header,
+h1,
+footer {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+img {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 600px;
+  background-color: #7f5af0;
+  color: #fffffe;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 4px 0;
+  padding-left: 8px;
+  border-left: 3px solid transparent;
+}
+
+.emphasy {
+  color: #fcf805;
+  border-color: #fcf805;
+}
+
+a {
+  color: #000;
+  background-color: #e0df8a;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+a:hover,
+a:active {
+  color: #000;
+  background-color: lavender;
+  cursor: pointer;
+}
+
+.download-btn {
+  padding: 8px;
+  background-color: #ebe808;
+}
+
+.download-btn:hover {
+  background-color: rgb(131, 124, 4);
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 18px;
+  margin: 30px auto;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  main {
+    width: 90%;
+    padding: 20px;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+}
